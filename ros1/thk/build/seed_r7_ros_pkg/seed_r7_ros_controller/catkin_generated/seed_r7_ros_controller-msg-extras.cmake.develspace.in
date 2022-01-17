@@ -1,0 +1,2 @@
+set(seed_r7_ros_controller_MESSAGE_FILES "")
+set(seed_r7_ros_controller_SERVICE_FILES "/home/tuner/work/ros1/thk/src/seed_r7_ros_pkg/seed_r7_ros_controller/srv/HandControl.srv;/home/tuner/work/ros1/thk/src/seed_r7_ros_pkg/seed_r7_ros_controller/srv/LedControl.srv;/home/tuner/work/ros1/thk/src/seed_r7_ros_pkg/seed_r7_ros_controller/srv/SetInitialPose.srv;/home/tuner/work/ros1/thk/src/seed_r7_ros_pkg/seed_r7_ros_controller/srv/ResetRobotStatus.srv")

@@ -1,0 +1,8 @@
+prefix=/home/tuner/work/ros1/thk/install
+
+Name: seed_r7_robot_interface
+Description: Description of seed_r7_robot_interface
+Version: 0.3.4
+Cflags: 
+Libs: -L${prefix}/lib -lseed_r7_robot_interface_typef -lseed_r7_robot_interface_typeg -lseed_r7_robot_interface_typeg_arm -lseed_r7_robot_interface_typeg2_arm
+Requires: roscpp seed_r7_ros_controller

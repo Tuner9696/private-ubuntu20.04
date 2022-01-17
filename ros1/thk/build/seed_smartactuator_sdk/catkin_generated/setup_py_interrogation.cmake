@@ -1,0 +1,7 @@
+set(seed_smartactuator_sdk_SETUP_PY_SETUP_MODULE "distutils.core")
+set(seed_smartactuator_sdk_SETUP_PY_VERSION "0.0.5")
+set(seed_smartactuator_sdk_SETUP_PY_SCRIPTS "")
+set(seed_smartactuator_sdk_SETUP_PY_PACKAGES "seed_smartactuator_sdk")
+set(seed_smartactuator_sdk_SETUP_PY_PACKAGE_DIRS "src/seed_smartactuator_sdk")
+set(seed_smartactuator_sdk_SETUP_PY_MODULES "")
+set(seed_smartactuator_sdk_SETUP_PY_MODULE_DIRS "")

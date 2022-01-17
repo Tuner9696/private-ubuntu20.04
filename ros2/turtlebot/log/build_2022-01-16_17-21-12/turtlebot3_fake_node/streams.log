@@ -1,0 +1,81 @@
+[0.051s] Invoking command in '/home/tuner/work/ros2/turtlebot/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/tuner/work/ros2/turtlebot/src/turtlebot3_simulations/turtlebot3_fake_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tuner/work/ros2/turtlebot/install/turtlebot3_fake_node
+[0.482s] -- The C compiler identification is GNU 8.4.0
+[3.010s] -- The CXX compiler identification is GNU 9.3.0
+[3.041s] -- Check for working C compiler: /usr/bin/cc
+[3.164s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.165s] -- Detecting C compiler ABI info
+[3.226s] -- Detecting C compiler ABI info - done
+[3.235s] -- Detecting C compile features
+[3.236s] -- Detecting C compile features - done
+[3.239s] -- Check for working CXX compiler: /usr/bin/c++
+[3.302s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.303s] -- Detecting CXX compiler ABI info
+[3.368s] -- Detecting CXX compiler ABI info - done
+[3.378s] -- Detecting CXX compile features
+[3.378s] -- Detecting CXX compile features - done
+[3.490s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.633s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.634s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.956s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.246s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[4.688s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.755s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.108s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.257s] -- Found FastRTPS: /opt/ros/foxy/include  
+[5.501s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.779s] -- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)
+[5.932s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[6.499s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.537s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.540s] -- Looking for pthread.h
+[6.637s] -- Looking for pthread.h - found
+[6.637s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.693s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.693s] -- Looking for pthread_create in pthreads
+[6.738s] -- Looking for pthread_create in pthreads - not found
+[6.739s] -- Looking for pthread_create in pthread
+[6.793s] -- Looking for pthread_create in pthread - found
+[6.793s] -- Found Threads: TRUE  
+[7.275s] -- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[7.448s] -- Found tf2: 0.13.12 (/opt/ros/foxy/share/tf2/cmake)
+[7.559s] -- Found tf2_msgs: 0.13.12 (/opt/ros/foxy/share/tf2_msgs/cmake)
+[7.934s] -- Found turtlebot3_msgs: 2.2.1 (/opt/ros/foxy/share/turtlebot3_msgs/cmake)
+[8.249s] -- Configuring done
+[8.269s] -- Generating done
+[8.270s] -- Build files have been written to: /home/tuner/work/ros2/turtlebot/build/turtlebot3_fake_node
+[8.276s] Invoked command in '/home/tuner/work/ros2/turtlebot/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/tuner/work/ros2/turtlebot/src/turtlebot3_simulations/turtlebot3_fake_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tuner/work/ros2/turtlebot/install/turtlebot3_fake_node
+[8.279s] Invoking command in '/home/tuner/work/ros2/turtlebot/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/tuner/work/ros2/turtlebot/build/turtlebot3_fake_node -- -j12 -l12
+[8.312s] [35m[1mScanning dependencies of target turtlebot3_fake_node[0m
+[10.571s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o[0m
+[16.502s] [100%] [32m[1mLinking CXX executable turtlebot3_fake_node[0m
+[20.743s] [100%] Built target turtlebot3_fake_node
+[20.754s] Invoked command in '/home/tuner/work/ros2/turtlebot/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/tuner/work/ros2/turtlebot/build/turtlebot3_fake_node -- -j12 -l12
+[20.788s] Invoking command in '/home/tuner/work/ros2/turtlebot/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/tuner/work/ros2/turtlebot/build/turtlebot3_fake_node
+[20.794s] -- Install configuration: ""
+[20.795s] -- Execute custom install script
+[20.795s] -- Symlinking: /home/tuner/work/ros2/turtlebot/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node
+[20.824s] -- Symlinking: /home/tuner/work/ros2/turtlebot/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py
+[20.832s] -- Symlinking: /home/tuner/work/ros2/turtlebot/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py
+[20.841s] -- Symlinking: /home/tuner/work/ros2/turtlebot/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml
+[20.849s] -- Symlinking: /home/tuner/work/ros2/turtlebot/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml
+[20.857s] -- Symlinking: /home/tuner/work/ros2/turtlebot/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml
+[20.866s] -- Symlinking: /home/tuner/work/ros2/turtlebot/install/turtlebot3_fake_node/share/turtlebot3_fake_node/rviz/model.rviz
+[20.874s] -- Symlinking: /home/tuner/work/ros2/turtlebot/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp
+[20.883s] -- Symlinking: /home/tuner/work/ros2/turtlebot/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node
+[20.892s] -- Symlinking: /home/tuner/work/ros2/turtlebot/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node
+[20.900s] -- Symlinking: /home/tuner/work/ros2/turtlebot/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh
+[20.908s] -- Symlinking: /home/tuner/work/ros2/turtlebot/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv
+[20.917s] -- Symlinking: /home/tuner/work/ros2/turtlebot/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh
+[20.925s] -- Symlinking: /home/tuner/work/ros2/turtlebot/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.dsv
+[20.933s] -- Symlinking: /home/tuner/work/ros2/turtlebot/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash
+[20.941s] -- Symlinking: /home/tuner/work/ros2/turtlebot/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh
+[20.950s] -- Symlinking: /home/tuner/work/ros2/turtlebot/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh
+[20.958s] -- Symlinking: /home/tuner/work/ros2/turtlebot/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.dsv
+[20.967s] -- Symlinking: /home/tuner/work/ros2/turtlebot/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv
+[20.975s] -- Symlinking: /home/tuner/work/ros2/turtlebot/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node
+[20.984s] -- Symlinking: /home/tuner/work/ros2/turtlebot/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.991s] -- Symlinking: /home/tuner/work/ros2/turtlebot/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[21.001s] -- Symlinking: /home/tuner/work/ros2/turtlebot/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake
+[21.010s] -- Symlinking: /home/tuner/work/ros2/turtlebot/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake
+[21.019s] -- Symlinking: /home/tuner/work/ros2/turtlebot/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml
+[21.028s] Invoked command in '/home/tuner/work/ros2/turtlebot/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/tuner/work/ros2/turtlebot/build/turtlebot3_fake_node

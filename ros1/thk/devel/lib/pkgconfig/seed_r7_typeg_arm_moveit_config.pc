@@ -1,0 +1,8 @@
+prefix=/home/tuner/work/ros1/thk/devel
+
+Name: seed_r7_typeg_arm_moveit_config
+Description: Description of seed_r7_typeg_arm_moveit_config
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

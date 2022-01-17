@@ -1,0 +1,8 @@
+prefix=/home/tuner/work/ros1/thk/install
+
+Name: seed_r7_gazebo
+Description: Description of seed_r7_gazebo
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tuner/work/ros1/thk/src/seed_smartactuator_sdk/include/seed_smartactuator_sdk/aero3_command.h
+boost/asio.hpp
+-
+boost/thread.hpp
+-
+vector
+-
+unordered_map
+-
+
+/home/tuner/work/ros1/thk/src/seed_smartactuator_sdk/include/seed_smartactuator_sdk/seed3_command.h
+boost/asio.hpp
+-
+boost/thread.hpp
+-
+vector
+-
+unordered_map
+-
+
+/home/tuner/work/ros1/thk/src/seed_smartactuator_sdk/src/aero3_command.cpp
+seed_smartactuator_sdk/aero3_command.h
+/home/tuner/work/ros1/thk/src/seed_smartactuator_sdk/src/seed_smartactuator_sdk/aero3_command.h
+iostream
+-
+
+/home/tuner/work/ros1/thk/src/seed_smartactuator_sdk/src/seed3_command.cpp
+seed_smartactuator_sdk/seed3_command.h
+/home/tuner/work/ros1/thk/src/seed_smartactuator_sdk/src/seed_smartactuator_sdk/seed3_command.h
+iostream
+-
+
